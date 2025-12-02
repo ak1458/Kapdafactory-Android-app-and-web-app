@@ -1,0 +1,21 @@
+KAPDAFACTORY ADMIN APP - INSTALL GUIDE
+
+1. DOWNLOAD
+   Tap the secure link sent to you by the Tech Team.
+   Download the file: KapdaFactory_Admin_vX.apk
+
+2. ALLOW INSTALL
+   If your phone asks, allow "Install unknown apps" for the browser/file manager you are using.
+   (Settings -> Security -> Install unknown apps)
+
+3. INSTALL
+   Open the downloaded file.
+   Tap "Install".
+   (If updating, it will say "Do you want to update?". Tap "Update".)
+
+4. LOGIN
+   Open "Kapdafactory Admin".
+   Login with your username and password.
+
+5. HELP
+   If the app fails, take a screenshot and send it to Tech Support immediately.
