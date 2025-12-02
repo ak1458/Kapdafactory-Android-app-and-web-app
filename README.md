@@ -2,11 +2,20 @@
 
 Mobile-first admin app for managing measurement records.
 
-## Structure
+## Project Structure
 
-- `/frontend`: React admin UI (Vite)
-- `/api`: PHP API
-- `/sql`: Database schema
+This repository contains both the **Android App** and the **Web App** components.
+
+### 1. Android App
+-   **APK**: Located in `Android-App-Build/Kapdafactory.apk`.
+-   **Source Code**: The Android app is built from the shared source code in `Shared-Source-Code`.
+
+### 2. Web App
+-   **Backend (API)**: Located in `Web-App-Backend/api`.
+-   **Frontend**: The Web app frontend is built from the shared source code in `Shared-Source-Code`.
+
+### 3. Shared Source Code
+-   `Shared-Source-Code`: Contains the React application used for both the Android app (via Capacitor) and the Web app.
 
 ## Prerequisites
 
@@ -16,18 +25,18 @@ Mobile-first admin app for managing measurement records.
 
 ## Running Locally
 
-### Frontend
+### Shared Frontend
 
 ```bash
-cd frontend
+cd Shared-Source-Code
 npm install
 npm run dev
 ```
 
-### API
+### Web Backend (API)
 
 ```bash
-cd api
+cd Web-App-Backend/api
 php -S localhost:8000
 ```
 
@@ -38,5 +47,7 @@ php -S localhost:8000
 
 ## Download App
 
-[Download APK](./frontend/android/app/release/app-release.apk)
+[Download APK](./Android-App-Build/Kapdafactory.apk)
+
+
 
